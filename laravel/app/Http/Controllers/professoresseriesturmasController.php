@@ -70,7 +70,7 @@ class professoresseriesturmasController extends Controller
         $idprofessor = session('idprofessor');
         $idturmaFK = professoresseriesturmasModel::where('idProfessorFK', $idprofessor)->where('idSerieFK', $request->input('serie'))->pluck('idTurmaFK');
         Log::info(" dadaad $idturmaFK");
-       
+        
         $serie = $request->input('serie');
         
         $turmas = turmasModel::whereIn('id', $idturmaFK)->get();

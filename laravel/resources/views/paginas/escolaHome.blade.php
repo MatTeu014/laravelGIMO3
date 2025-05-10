@@ -79,7 +79,7 @@
 				<div class="col-md-6">
 					<h2 class="mb-4">Escola</h2>
 					<p>
-						• Bem-Vindo a área de registro de escolas.
+						• Bem-Vindo a área de registro de séries, turmas e professores.
 					</p>
 					<p>
 						• Aqui poderá ser cadastrada as séries e turmas da escola cadastrada no sistema,

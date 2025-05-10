@@ -39,8 +39,8 @@ class professorController extends Controller
         
         $turmas = turmasModel::whereIn('id', $idturmaFK)->get();
         
-        Log::info(" dadaad $turmas");
         session(['idturma' => $turmas->pluck('id')]);
+        Log::info(" seila $turmas");
         
         return view('paginas.professorConsultarTurmasAlunos', compact('turmas'));
 
@@ -63,18 +63,17 @@ class professorController extends Controller
    public function professorConsultarTurmas(Request $request)
     {
 
-
         $turmas = turmasModel::all();
 
         return view('paginas.professorCadastroTurmas', compact('turmas'));
 
     }
 
-    public function professorConsultarAlunos()
+    public function professorConsultarAlunos(Request $request)
     {
 
-        $alunos = alunosModel::whereIn('idSerieFK',session('idserie'))->where('idTurmaFK', session('idturma'))->get(); 
-        Log::info("ID DO PROFESSOR $alunos");
+        $alunos = alunosModel::where('idTurmaFK', $request->input('turma'))->where('idSerieFK',session('serie'))->get(); 
+        Log::info("TESTE $alunos");
         return view('paginas.professorConsultarAlunos', compact('alunos'));
     }
     
@@ -82,7 +81,7 @@ class professorController extends Controller
     {
         $alunos = alunosModel::where('nome', $request->input('nome'))->get(); 
         
-        Log::info("ID DO PROFESSOR $alunos");
+        Log::info("TESTE $alunos");
         
         return view('paginas.professorRelatoriosAlunos', compact('alunos'));
     }
