@@ -9,11 +9,7 @@
         <img src="{{ URL::to('/assets/img/logo_gimo.png') }}" alt="Logo" style="width: 100px; height: auto;">
       </a>
 
-      <!-- BOTÃO LOGIN -->
-      <form class="d-flex" role="search">
-        <a href="professorLogin" class="btn"
-          style="background-color: white; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color:rgb(245, 140, 109);">LOGIN</a>
-      </form>
+
 
     </div>
   </nav>
@@ -74,7 +70,7 @@
   </section>
   <br>
 
-  <!-- Footer centralizado -->
+  <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">

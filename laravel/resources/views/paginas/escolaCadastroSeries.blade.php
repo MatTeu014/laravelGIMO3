@@ -9,10 +9,58 @@
         <img src="{{ URL::to('/assets/img/logo_gimo.png') }}" alt="Logo" style="width: 100px; height: auto;">
       </a>
 
-      <!-- BOTÃO LOGIN -->
+      <div class="d-flex justify-content-center flex-grow-1" style="padding-top:35px;">
+        <ul class="navbar-nav d-flex flex-row gap-3">
+
+          <li class="nav-item">
+
+            <a href="/escolaHome" class="btn btn-danger"
+              style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
+            <a href="/escolaCadastroSeries" class="btn btn-danger"
+              style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Séries</a>
+            <a href="seriesconsultar" class="btn btn-danger"
+              style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Turmas</a>
+
+
+          </li>
+          <div class="dropdown ms-2">
+            <button class="btn dropdown-toggle"
+              style="background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 18px; width: 100%; text-align: center; color: white; height: 55px;"
+              type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              Professor
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="professorCadastro">Cadastro</a></li>
+              <li><a class="dropdown-item" href="professorconsultarprofessores">Séries e Turmas</a></li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+
       <form class="d-flex" role="search">
-        <a href="escolaLogin" class="btn"
-          style="background-color: white; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color:rgb(155, 109, 50);">LOGIN</a>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="escolasperfil">Perfil</a></li>
+                  <li><a class="dropdown-item" href="/">Sair</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </form>
 
     </div>
@@ -67,7 +115,7 @@
   </section>
   <br>
 
-  <!-- Footer centralizado -->
+  <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">

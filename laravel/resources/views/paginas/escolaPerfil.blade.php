@@ -12,14 +12,32 @@
             <div class="d-flex justify-content-center flex-grow-1" style="padding-top:35px;">
                 <ul class="navbar-nav d-flex flex-row gap-3">
 
-                    <li class="nav-item">
-                        <a href="/escolaHome" class="btn btn-danger"
-                            style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
-                        <a href="/escolaCadastroSeries" class="btn btn-danger"
-                            style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Séries</a>
-                        <a href="seriesconsultar" class="btn btn-danger"
-                            style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Turmas</a>
-                    </li>
+                    <ul class="navbar-nav d-flex flex-row gap-3">
+
+                        <li class="nav-item">
+
+                            <a href="/escolaHome" class="btn btn-danger"
+                                style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
+                            <a href="/escolaCadastroSeries" class="btn btn-danger"
+                                style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Séries</a>
+                            <a href="seriesconsultar" class="btn btn-danger"
+                                style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Turmas</a>
+
+
+                        </li>
+                        <div class="dropdown ms-2">
+                            <button class="btn dropdown-toggle"
+                                style="background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 18px; width: 100%; text-align: center; color: white; height: 55px;"
+                                type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                Professor
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="professorCadastro">Cadastro</a></li>
+                                <li><a class="dropdown-item" href="professorconsultarprofessores">Séries e Turmas</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
                 </ul>
             </div>
 
@@ -127,9 +145,9 @@
                                 Voltar
                             </button></a>
                         <button type="submit" class="btn btn-danger"
-                                style="width: 10%; border-radius: 30px; font-size: 18px; padding: 12px 24px; margin-left: 20%; background-color: rgb(119, 81, 31); border-color: rgb(119, 81, 31);">
-                                Editar
-                            </button>
+                            style="width: 10%; border-radius: 30px; font-size: 18px; padding: 12px 24px; margin-left: 20%; background-color: rgb(119, 81, 31); border-color: rgb(119, 81, 31);">
+                            Editar
+                        </button>
 
                     </div>
                 </div>
@@ -138,7 +156,7 @@
     </section>
 
 
-    <!-- Footer centralizado -->
+    <!-- Footer -->
     <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
         <div class="container py-5">
             <div class="row text-center justify-content-center">
@@ -199,6 +217,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- FontAwesome (caso ainda não esteja incluído) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <!-- FontAwesome (caso ainda não esteja incluído) -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

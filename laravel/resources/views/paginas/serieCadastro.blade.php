@@ -1,37 +1,39 @@
-<x-layout titulo="Cadastro de Séries">    
+<x-layout titulo="Cadastro de Séries">
 
   <nav class="navbar navbar-expand-lg" style="background-color: #BDBDBD; padding-top: 20px; padding-bottom: 20px;">
-      <div class="container-fluid d-flex justify-content-between align-items-center">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
 
-        <!-- LOGO -->
-        <a class="navbar-brand" href="admHome">
-          <img src="{{ URL::to('/assets/img/logo_gimo.png') }}" alt="Logo" style="width: 100px; height: auto;">
-        </a>
+      <!-- LOGO -->
+      <a class="navbar-brand" href="admHome">
+        <img src="{{ URL::to('/assets/img/logo_gimo.png') }}" alt="Logo" style="width: 100px; height: auto;">
+      </a>
 
-        <!-- BOTÃO LOGIN -->
-        <form class="d-flex" role="search">
-          <a href="alunoLogin" class="btn" style="background-color: white; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color: #E5CD59;">LOGIN</a>
-        </form>
+      <!-- BOTÃO LOGIN -->
+      <form class="d-flex" role="search">
+        <a href="alunoLogin" class="btn"
+          style="background-color: white; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color: #E5CD59;">LOGIN</a>
+      </form>
 
-      </div>
+    </div>
   </nav>
 
   <!-- TÍTULO -->
   <br>
   <h2 class="card-title" style="text-align: center;">Cadastro de Séries</h2>
   <br>
-  
-  <div class="card" style="width: 50%; border-color: #f5e177; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
+
+  <div class="card"
+    style="width: 50%; border-color: #f5e177; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
     <div class="card-body">
-    @if (session('success'))
-    <div class="alert alert-success" role="alert">
-        {{ session('success') }}
-    </div>
+      @if (session('success'))
+      <div class="alert alert-success" role="alert">
+      {{ session('success') }}
+      </div>
     @endif
-    @if (session('failed'))
-    <div class="alert alert-danger" role="alert">
-        {{ session('failed') }}
-    </div>
+      @if (session('failed'))
+      <div class="alert alert-danger" role="alert">
+      {{ session('failed') }}
+      </div>
     @endif
       <form action="/alunoscadastrar" method="GET"> <!-- Ajuste o action se necessário -->
 
@@ -54,11 +56,11 @@
 
       </form>
     </div>
-   
+
   </div>
   <br>
 
-  <!-- Footer centralizado -->
+  <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">

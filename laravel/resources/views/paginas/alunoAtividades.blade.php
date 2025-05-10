@@ -1,5 +1,6 @@
-<x-layout titulo="Atividades Aluno">    
-  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
+<x-layout titulo="Atividades Aluno">
+  <nav class="navbar navbar-expand-lg sticky-top"
+    style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <!-- LOGO (Imagem responsiva) -->
@@ -11,16 +12,20 @@
       <div class="d-flex justify-content-center flex-grow-1" style="padding-top:35px;">
         <ul class="navbar-nav d-flex flex-row gap-3">
           <li class="nav-item">
-            <a href="/alunoHome" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
+            <a href="/alunoHome" class="btn btn-danger"
+              style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
           </li>
           <li class="nav-item">
-            <a href="alunoSobrenos" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
+            <a href="alunoSobrenos" class="btn btn-danger"
+              style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
           </li>
           <li class="nav-item">
-            <a href="alunoAtividades" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
+            <a href="alunoAtividades" class="btn btn-danger"
+              style="border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('alunosrelatorio') }}" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
+            <a href="{{ route('alunosrelatorio') }}" class="btn btn-danger"
+              style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
           </li>
         </ul>
       </div>
@@ -28,15 +33,19 @@
       <!-- BOTÕES DIREITA (USUÁRIO) -->
       <form class="d-flex" role="search">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                 </svg>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="{{ route('alunosperfil') }}">Perfil</a></li>
@@ -52,35 +61,39 @@
 
   <!-- Seção de Conteúdo -->
 
-   <div style="text-align: center; margin-top: 2%;"><h1>Escolha uma Atividade</h1>
-        <p>Você agora está entrando na área de atividades, fique atento nos passos a passo da execução das letras e números,<br> 
-          siga as orientações de cada passo, sempre prestando muita atenção, e assim que acabar cada letra ou número <br> 
-          não esqueça de clicar no botão <b>FINALIZAR</b> de cada atividade, para computar seu rendimento. <br>
-          Boa sorte, e tomara que se divirta bastante, enquanto aprende!</p>
-    </div>
+  <div style="text-align: center; margin-top: 2%;">
+    <h1>Escolha uma Atividade</h1>
+    <p>Você agora está entrando na área de atividades, fique atento nos passos a passo da execução das letras e
+      números,<br>
+      siga as orientações de cada passo, sempre prestando muita atenção, e assim que acabar cada letra ou número <br>
+      não esqueça de clicar no botão <b>FINALIZAR</b> de cada atividade, para computar seu rendimento. <br>
+      Boa sorte, e tomara que se divirta bastante, enquanto aprende!</p>
+  </div>
 
-    <section class="py-5" style="padding-top: 80px; text-align: center;">
-        <div class="container" style="margin: auto;">
-            <div class="row align-items-center">
+  <section class="py-5" style="padding-top: 80px; text-align: center;">
+    <div class="container" style="margin: auto;">
+      <div class="row align-items-center">
 
-                <div class="card" style="width: 24rem; margin-left: 10%; height: 35vh; border-color: white;">
-                    <div class="card-body">
-                        <a href="alunoAlfabeto"><button style="font-size: 150px; border-radius: 30px; border-color: #4782da; border-style: solid; background-color: white;">ABC</button></a>
-                    </div>
-                </div>
-                
-                <div class="card" style="width: 24rem; margin-left: 15%; height: 35vh; border-color: white;">
-                  <div class="card-body">
-                    <a href="alunoNumeros"><button style="font-size: 150px; border-radius: 30px; border-color: #34b764; border-style: solid; background-color: white;">123</button></a>
-                  </div>
-                </div>
-
-            </div>
+        <div class="card" style="width: 24rem; margin-left: 10%; height: 35vh; border-color: white;">
+          <div class="card-body">
+            <a href="alunoAlfabeto"><button
+                style="font-size: 150px; border-radius: 30px; border-color: #4782da; border-style: solid; background-color: white;">ABC</button></a>
+          </div>
         </div>
-    </section>
 
-   <!-- Footer centralizado -->
-   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
+        <div class="card" style="width: 24rem; margin-left: 15%; height: 35vh; border-color: white;">
+          <div class="card-body">
+            <a href="alunoNumeros"><button
+                style="font-size: 150px; border-radius: 30px; border-color: #34b764; border-style: solid; background-color: white;">123</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">
 
@@ -142,5 +155,5 @@
 
   <!-- FontAwesome (caso ainda não esteja incluído) -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  
+
 </x-layout>

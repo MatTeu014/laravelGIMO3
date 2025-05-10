@@ -11,7 +11,8 @@
 
       <!-- BOTÃO LOGIN -->
       <form class="d-flex" role="search">
-        <a href="escolaCadastro" class="btn" style="background-color: white; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color:rgb(155, 109, 50);">CADASTRO</a>
+        <a href="escolaCadastro" class="btn"
+          style="background-color: white; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color:rgb(155, 109, 50);">CADASTRO</a>
       </form>
 
     </div>
@@ -61,9 +62,10 @@
 
           <!-- Botão Logar -->
           <div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
-            <a href="/"><button type="button" class="btn btn-primary" style="background-color: white; color:rgb(155, 109, 50); border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 150px;">Voltar</button></a>
-           
-                <button type="submit" class="btn btn-primary"
+            <a href="/"><button type="button" class="btn btn-primary"
+                style="background-color: white; color:rgb(155, 109, 50); border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 150px;">Voltar</button></a>
+
+            <button type="submit" class="btn btn-primary"
               style="background-color: white; color:rgb(155, 109, 50);; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 150px;">Entrar</button>
 
           </div>
@@ -77,8 +79,8 @@
   </div>
   <br>
 
-   <!-- Footer centralizado -->
-   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
+  <!-- Footer -->
+  <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">
 

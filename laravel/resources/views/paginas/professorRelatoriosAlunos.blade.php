@@ -17,7 +17,7 @@
 					</li>
 					<div class="dropdown ms-2">
 						<button class="btn dropdown-toggle"
-							style="background-color: rgb(245, 101, 58); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color: white;"
+							style="background-color: rgb(245, 101, 58); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color: white; height: 54px;"
 							type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
 							aria-expanded="false">Relatórios</button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -42,8 +42,9 @@
 						<ul class="navbar-nav">
 							<li class="nav-item dropdown">
 								<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
-									class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#"
-									role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
+									class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle"
+									href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+									style="margin-right: 100px;">
 									<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
 									<path fill-rule="evenodd"
 										d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
@@ -232,101 +233,101 @@
 								<th
 									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
 									P</th>
-									@elseif($aluno->botaoP == 1)
+							@elseif($aluno->botaoP == 1)
 								<th
 									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
 									P</th>
 							@endif
-								@if ($aluno->botaoQ == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black">
-										Q</th>
-								@elseif($aluno->botaoQ == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										Q</th>
-								@endif
-								@if ($aluno->botaoR == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										R</th>
-								@elseif($aluno->botaoR == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										R</th>
-								@endif
-								@if ($aluno->botaoS == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										S</th>
-								@elseif($aluno->botaoS == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										S</th>
-								@endif
-								@if ($aluno->botaoT == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										T</th>
-								@elseif($aluno->botaoT == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										T</th>
-								@endif
-								@if ($aluno->botaoU == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										U</th>
-								@elseif($aluno->botaoU == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										U</th>
-								@endif
-								@if ($aluno->botaoV == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										V</th>
-								@elseif($aluno->botaoV == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										V</th>
-								@endif
-								@if ($aluno->botaoW == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										W</th>
-								@elseif($aluno->botaoW == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										W</th>
-								@endif
-								@if ($aluno->botaoX == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										X</th>
-								@elseif($aluno->botaoX == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										X</th>
-								@endif
-								@if ($aluno->botaoY == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										Y</th>
-								@elseif($aluno->botaoY == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										Y</th>
-								@endif
-								@if ($aluno->botaoZ == 0)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
-										Z</th>
-								@elseif($aluno->botaoZ == 1)
-									<th
-										style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
-										Z</th>
-								@endif
+							@if ($aluno->botaoQ == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black">
+									Q</th>
+							@elseif($aluno->botaoQ == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									Q</th>
+							@endif
+							@if ($aluno->botaoR == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									R</th>
+							@elseif($aluno->botaoR == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									R</th>
+							@endif
+							@if ($aluno->botaoS == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									S</th>
+							@elseif($aluno->botaoS == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									S</th>
+							@endif
+							@if ($aluno->botaoT == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									T</th>
+							@elseif($aluno->botaoT == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									T</th>
+							@endif
+							@if ($aluno->botaoU == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									U</th>
+							@elseif($aluno->botaoU == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									U</th>
+							@endif
+							@if ($aluno->botaoV == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									V</th>
+							@elseif($aluno->botaoV == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									V</th>
+							@endif
+							@if ($aluno->botaoW == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									W</th>
+							@elseif($aluno->botaoW == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									W</th>
+							@endif
+							@if ($aluno->botaoX == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									X</th>
+							@elseif($aluno->botaoX == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									X</th>
+							@endif
+							@if ($aluno->botaoY == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									Y</th>
+							@elseif($aluno->botaoY == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									Y</th>
+							@endif
+							@if ($aluno->botaoZ == 0)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px; background-color: rgb(229, 15, 15); border-color: black;">
+									Z</th>
+							@elseif($aluno->botaoZ == 1)
+								<th
+									style="border-style: solid; border-width: 2px; font-size: 17px;background-color: rgb(15, 229, 79); border-color: black;">
+									Z</th>
+							@endif
 						</tr>
 					@endforeach
 				</tbody>
@@ -458,7 +459,7 @@
 
 
 
-	<!-- Footer centralizado -->
+	<!-- Footer -->
 	<footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
 		<div class="container py-5">
 			<div class="row text-center justify-content-center">
@@ -503,7 +504,8 @@
 					<div class="d-flex flex-column align-items-center">
 						<p><i class="fas fa-envelope me-2" style="color: #000;"></i>gimo.projeto@email.com</p>
 						<p><i class="fas fa-map-marker-alt me-2" style="color: #000;"></i>Senac - SBC, Brasil</p>
-						<a href="https://www.instagram.com" target="_blank" class="text-reset d-flex align-items-center">
+						<a href="https://www.instagram.com" target="_blank"
+							class="text-reset d-flex align-items-center">
 							<i class="fab fa-instagram fa-lg me-2" style="color: #000;"></i><span>Instagram</span>
 						</a>
 					</div>

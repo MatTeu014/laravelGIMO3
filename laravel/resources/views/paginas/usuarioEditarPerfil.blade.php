@@ -43,8 +43,9 @@
 						<ul class="navbar-nav">
 							<li class="nav-item dropdown">
 								<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
-									class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#"
-									role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
+									class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle"
+									href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+									style="margin-right: 100px;">
 									<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
 									<path fill-rule="evenodd"
 										d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
@@ -114,7 +115,8 @@
 								<div class="col-md-6">
 									<h3 style="text-align: center;">Nova Senha:</h3>
 									<div class="form-floating mb-3">
-										<input type="text" class="form-control" id="senha" name="senha" placeholder="Senha"
+										<input type="text" class="form-control" id="senha" name="senha"
+											placeholder="Senha"
 											style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;"
 											value="{{ $usuarios->senha }}">
 										<label for="senha">Senha</label>
@@ -125,7 +127,8 @@
 								<div class="col-md-6">
 									<h3 style="text-align: center;">Nova Idade:</h3>
 									<div class="form-floating mb-3">
-										<input type="text" class="form-control" id="idade" name="idade" placeholder="Idade"
+										<input type="text" class="form-control" id="idade" name="idade"
+											placeholder="Idade"
 											style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;"
 											value="{{ $usuarios->idade }}">
 										<label for="idade">Idade</label>
@@ -134,7 +137,8 @@
 
 
 								<!-- Botão Editar -->
-								<div class="col-12 d-flex justify-content-center" style="transform: translate(0px, -0px);">
+								<div class="col-12 d-flex justify-content-center"
+									style="transform: translate(0px, -0px);">
 									<a href="{{ route('usuarioperfil') }}"><button type="button" class="btn btn-danger"
 											style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px; background-color: #E5CD59; border-color: #E5CD59;">
 											Voltar
@@ -154,16 +158,15 @@
 		</div>
 	</section>
 
-
-	<!-- Footer remains unchanged -->
+	<!-- Footer -->
 	<footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
 		<div class="container py-5">
-			<div class="row text-center text-md-start">
+			<div class="row text-center justify-content-center">
 
 				<!-- Projeto GIMO -->
 				<div class="col-12 col-md-4 mb-4">
 					<h6 class="text-uppercase fw-bold mb-3">Projeto GIMO Desenvolvido por:</h6>
-					<div class="d-flex flex-column align-items-start">
+					<div class="d-flex flex-column align-items-center">
 						<p class="mb-2">Gisele da Hora Silva</p>
 						<p class="mb-2">Isaac Sena Martins</p>
 						<p class="mb-2">Mateus Albuquerque Pavani</p>
@@ -171,39 +174,40 @@
 					</div>
 				</div>
 
-				<!-- Redes Sociais / Link da equipe -->
-				<div class="col-12 col-md-4 mb-4" style="text-align: center;">
-					<h6 class="text-uppercase fw-bold mb-3">Linkedin</h6>
-					<div class="flex-column align-items-start text-center">
-						<a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank"
-							class="d-block text-decoration-none text-primary mb-2">
-							<i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchsdasadadadsa
+				<!-- LinkedIn centralizado e alinhado -->
+				<div class="col-12 col-md-4 mb-4">
+					<h6 class="text-uppercase fw-bold mb-3">LinkedIn</h6>
+					<div class="d-flex flex-column align-items-center">
+						<a href="https://www.linkedin.com/in/gisele-da-hora-silva-0313811a9/" target="_blank"
+							class="text-decoration-none text-primary mb-2 d-flex align-items-center">
+							<i class="fab fa-linkedin me-2"></i><span>Gisele da Hora</span>
+						</a>
+						<a href="https://www.linkedin.com/in/isaac-sena-74ab56224/" target="_blank"
+							class="text-decoration-none text-primary mb-2 d-flex align-items-center">
+							<i class="fab fa-linkedin me-2"></i><span>Isaac Sena</span>
+						</a>
+						<a href="https://www.linkedin.com/in/mateus-albuquerque-pavani-934598267/" target="_blank"
+							class="text-decoration-none text-primary mb-2 d-flex align-items-center">
+							<i class="fab fa-linkedin me-2"></i><span>Mateus Pavani</span>
+						</a>
+						<a href="https://www.linkedin.com/in/ot%C3%A1vio-fidalgo-8448a1217/" target="_blank"
+							class="text-decoration-none text-primary mb-2 d-flex align-items-center">
+							<i class="fab fa-linkedin me-2"></i><span>Otávio Fidalgo</span>
 						</a>
 					</div>
 				</div>
 
-				<!-- Contato -->
+				<!-- Contato e Redes Sociais centralizados -->
 				<div class="col-12 col-md-4 mb-4">
 					<h6 class="text-uppercase fw-bold mb-3">Contato</h6>
-					<p><i class="fas fa-envelope me-2"></i>gimo.projeto@email.com</p>
-					<p><i class="fas fa-phone me-2"></i>(11) 12345-6789</p>
-					<p><i class="fas fa-map-marker-alt me-2"></i>Senac - SBC, Brasil</p>
-				</div>
-			</div>
-
-			<!-- Redes Sociais - Siga-nos (centralizado) -->
-			<div class="row">
-				<div class="col-12 text-center mt-4">
-					<h6 class="text-uppercase fw-bold mb-3">Redes Sociais</h6>
-					<a href="https://www.linkedin.com" target="_blank" class="me-4 text-reset">
-						<i class="fab fa-linkedin fa-lg"></i>
-					</a>
-					<a href="https://www.instagram.com" target="_blank" class="me-4 text-reset">
-						<i class="fab fa-instagram fa-lg"></i>
-					</a>
-					<a href="https://www.github.com" target="_blank" class="me-4 text-reset">
-						<i class="fab fa-github fa-lg"></i>
-					</a>
+					<div class="d-flex flex-column align-items-center">
+						<p><i class="fas fa-envelope me-2" style="color: #000;"></i>gimo.projeto@email.com</p>
+						<p><i class="fas fa-map-marker-alt me-2" style="color: #000;"></i>Senac - SBC, Brasil</p>
+						<a href="https://www.instagram.com" target="_blank"
+							class="text-reset d-flex align-items-center">
+							<i class="fab fa-instagram fa-lg me-2" style="color: #000;"></i><span>Instagram</span>
+						</a>
+					</div>
 				</div>
 			</div>
 

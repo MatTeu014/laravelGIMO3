@@ -54,28 +54,22 @@
 
         <!-- Texto à esquerda -->
         <div class="col-md-6">
-          <h2 class="mb-4">Título da Seção</h2>
-          <p>
-            Este é um exemplo de seção com texto do lado esquerdo e uma imagem do lado direito.
-            Você pode usar essa estrutura para descrever seu projeto, equipe ou qualquer outro conteúdo relevante.
-          </p>
-          <p>
-            Adicione quantos parágrafos quiser, ou até botões se preferir. É totalmente personalizável.
-          </p>
-          <p>
-            Este é um exemplo de seção com texto do lado esquerdo e uma imagem do lado direito.
-            Você pode usar essa estrutura para descrever seu projeto, equipe ou qualquer outro conteúdo relevante.
-          </p>
-          <p>
-            Adicione quantos parágrafos quiser, ou até botões se preferir. É totalmente personalizável.
-          </p>
-          <p>
-            Este é um exemplo de seção com texto do lado esquerdo e uma imagem do lado direito.
-            Você pode usar essa estrutura para descrever seu projeto, equipe ou qualquer outro conteúdo relevante.
-          </p>
-          <p>
-            Adicione quantos parágrafos quiser, ou até botões se preferir. É totalmente personalizável.
-          </p>
+          <h2 class="mb-4">Projeto GIMO</h2>
+          <p>Como sabemos hoje vivemos em frente a uma tela, já que estamos na era da tecnologia, sendo assim todos
+            estamos sujeitos a ficar horas em frente as telas de computadores e celulares, e isso não é diferente quando
+            falamos de crianças nos dias atuais, pios hoje desde muito pequenos já se possuí acesso a um celular ou um
+            computador, por diversos motivos, e a escola também já se introduz essas tecnologias nas escolas, iniciado
+            nos anos 80, depois se popularizando em todas as escolas nos anos 90 (mais específico em 1997),
+            possibilitando a pesquisa usando as maquinas na escola, e hoje com a crescente nos avanços da tecnologia e a
+            implementação dessas na sociedade, incluindo nas escolas, crianças tem acesso as telas muito rápido, então,
+            pensando nisso, pensamos em transformar isso em uma oportunidade de aprendizado, podendo ser usado de
+            maneira responsável e incentivando o aprendizado e o estudo para todas as crianças.</p>
+          <p>O projeto GIMO tem como objetivo a elaboração de um site que auxilia alunos de ensino primário em seu
+            aprendizado na parte de alfabetização e conhecimentos, podendo ser uma ajuda para o professor em sala de
+            aula, proporcionando uma aula mais interativa e chamativa para as crianças. Visando as crianças com
+            dificuldade de aprendizado, por quaisquer motivos que sejam, queremos que todas tenham uma aula interessante
+            e que seja divertido aprender, sendo assim, podendo se usar desse site para uma melhora no ambiente escolar
+            para ser cada vez mais receptivo para o aprendizado que é tão importante na vida de um ser humano. </p>
         </div>
 
         <!-- Imagem à direita -->
@@ -87,7 +81,7 @@
     </div>
   </section>
 
-  <!-- Footer centralizado -->
+  <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">

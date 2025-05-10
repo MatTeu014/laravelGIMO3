@@ -1,4 +1,4 @@
-<x-layout titulo="Esqueceu Senha do Professor">    
+<x-layout titulo="Esqueceu Senha do Professor">
 
   <nav class="navbar navbar-expand-lg" style="background-color: #BDBDBD; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
@@ -24,7 +24,8 @@
   <h2 class="card-title" style="text-align: center;">Validar Chave de Acesso</h2>
   <br>
 
-  <div class="card" style="width: 50%; border-color: #BDBDBD; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
+  <div class="card"
+    style="width: 50%; border-color: #BDBDBD; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
     <div class="card-body">
 
       <form action="" method="GET"> <!-- Altere o action se precisar -->
@@ -41,8 +42,8 @@
         <!-- Chave de Acesso -->
         <h3 style="text-align: center;">Chave de Acesso:</h3>
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="chaveAcesso" name="chaveAcesso" placeholder="Digite a chave" required
-            style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+          <input type="text" class="form-control" id="chaveAcesso" name="chaveAcesso" placeholder="Digite a chave"
+            required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
           <label for="chaveAcesso">Chave de Acesso</label>
         </div>
         <br>
@@ -61,8 +62,8 @@
     </div>
   </div>
 
-   <!-- Footer centralizado -->
-   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
+  <!-- Footer -->
+  <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">
 

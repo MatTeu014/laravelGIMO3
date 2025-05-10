@@ -14,15 +14,18 @@
 
 					<li class="nav-item">
 
-						<a href="/escolaHome" class="btn btn-danger" style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
-						<a href="/escolaCadastroSeries" class="btn btn-danger" style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Séries</a>
-						<a href="seriesconsultar" class="btn btn-danger" style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Turmas</a>
+						<a href="/escolaHome" class="btn btn-danger"
+							style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
+						<a href="/escolaCadastroSeries" class="btn btn-danger"
+							style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Séries</a>
+						<a href="seriesconsultar" class="btn btn-danger"
+							style=" background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Turmas</a>
 
-						
+
 					</li>
 					<div class="dropdown ms-2">
 						<button class="btn dropdown-toggle"
-							style="background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color: white;"
+							style="background-color: rgb(155, 109, 50); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 18px; width: 100%; text-align: center; color: white; height: 55px;"
 							type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
 							Professor
 						</button>
@@ -79,7 +82,7 @@
 						• Bem-Vindo a área de registro de escolas.
 					</p>
 					<p>
-						• Aqui poderá ser cadastrada as séries e turmas de cada escola cadastrada no sistema,
+						• Aqui poderá ser cadastrada as séries e turmas da escola cadastrada no sistema,
 						possibilitando uma melhor compreensão e organização das mesmas, assim podendo ter um maior
 						rendimento nas atividades com os alunos.
 					</p>
@@ -101,7 +104,7 @@
 	</section>
 
 
-	<!-- Footer centralizado -->
+	<!-- Footer -->
 	<footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
 		<div class="container py-5">
 			<div class="row text-center justify-content-center">
@@ -162,7 +165,6 @@
 			</div>
 		</div>
 	</footer>
-
 	<!-- FontAwesome (caso ainda não esteja incluído) -->
 	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 

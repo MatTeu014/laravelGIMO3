@@ -11,7 +11,7 @@
 
       <!-- BOTÃO LOGIN -->
       <form class="d-flex" role="search">
-      
+
       </form>
 
     </div>
@@ -86,10 +86,12 @@
 
         <!-- Botão Cadastrar -->
         <div>
-          <a href="escolaHome"><button type="button" class="btn btn-primary" style="float: left;background-color: white; color:rgb(255, 119, 77); border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 20%;">Voltar</button></a>
-          <button type="submit" class="btn btn-primary" style="float: right;background-color: white; color:rgb(255, 119, 77); border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 20%;">Cadastrar</button>
+          <a href="escolaHome"><button type="button" class="btn btn-primary"
+              style="float: left;background-color: white; color:rgb(255, 119, 77); border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 20%;">Voltar</button></a>
+          <button type="submit" class="btn btn-primary"
+            style="float: right;background-color: white; color:rgb(255, 119, 77); border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; width: 20%;">Cadastrar</button>
         </div>
-        
+
     </div>
 
     <br>
@@ -100,7 +102,7 @@
   </div>
   <br>
 
-  <!-- Footer centralizado -->
+  <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">

@@ -51,13 +51,14 @@
             style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
           <label for="senha">Senha</label>
         </div>
-        <a href="" style="float: right; color:rgb(255, 138, 103);">Esqueci a Senha</a>
         <br>
 
         <!-- Botão Entrar -->
         <div>
-          <a href="/"><button type="button" class="btn btn-primary" style="background-color: white; color:  #FE5F2F; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 15%; margin-right: 5%;">Voltar</button></a>
-          <button type="submit" class="btn btn-primary" style="background-color: white; color:  #FE5F2F; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 15%;">Entrar</button>
+          <a href="/"><button type="button" class="btn btn-primary"
+              style="background-color: white; color:  #FE5F2F; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 15%; margin-right: 5%;">Voltar</button></a>
+          <button type="submit" class="btn btn-primary"
+            style="background-color: white; color:  #FE5F2F; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 15%;">Entrar</button>
         </div>
       </form>
 
@@ -65,7 +66,7 @@
   </div>
   <br>
 
-  <!-- Footer centralizado -->
+  <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">

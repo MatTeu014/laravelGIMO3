@@ -12,11 +12,15 @@
 			<div class="d-flex justify-content-center flex-grow-1" style="padding-top:35px;">
 				<ul class="navbar-nav d-flex flex-row gap-3">
 					<li class="nav-item">
-						<a href="/professorHome" class="btn btn-danger" style=" background-color:rgb(245, 101, 58); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 160px; text-align: center;">Home</a>
+						<a href="/professorHome" class="btn btn-danger"
+							style=" background-color:rgb(245, 101, 58); border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 160px; text-align: center;">Home</a>
 					</li>
 
 					<div class="dropdown ms-2">
-						<button class="btn dropdown-toggle" style="background-color: rgb(245, 101, 58); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color: white;" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Relatórios</button>
+						<button class="btn dropdown-toggle"
+							style="background-color: rgb(245, 101, 58); border: 2px solid black; border-radius: 30px; padding: 6px 10px; font-size: 19px; width: 100%; text-align: center; color: white; height: 54px;"
+							type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+							aria-expanded="false">Relatórios</button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							<li><a class="dropdown-item" href="professoresseriesturmaconsultaserie">Turmas</a></li>
 							<li><a class="dropdown-item" href="professorconsultarseriesalunos">Alunos</a></li>
@@ -101,7 +105,7 @@
 
 
 
-	<!-- Footer centralizado -->
+	<!-- Footer -->
 	<footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
 		<div class="container py-5">
 			<div class="row text-center justify-content-center">

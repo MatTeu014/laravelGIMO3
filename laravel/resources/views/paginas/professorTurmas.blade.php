@@ -1,5 +1,6 @@
 <x-layout titulo="Home Administrador">
-  <nav class="navbar navbar-expand-lg sticky-top" style="background-color:rgb(245, 101, 58); padding-top: 17px; padding-bottom: 17px;">
+  <nav class="navbar navbar-expand-lg sticky-top"
+    style="background-color:rgb(245, 101, 58); padding-top: 17px; padding-bottom: 17px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <!-- LOGO (Imagem responsiva) -->
@@ -13,23 +14,27 @@
         </ul>
       </div>
 
-      
+
 
       <!-- BOTÕES DIREITA (USUÁRIO) -->
       <form class="d-flex" role="search">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16" class="nav-link dropdown-toggle" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 100px;">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                 </svg>
                 <ul class="dropdown-menu">
-                  <li><a  class="dropdown-item" href="{{ route('professorperfil') }}">Perfil</a></li>
+                  <li><a class="dropdown-item" href="{{ route('professorperfil') }}">Perfil</a></li>
                   <li><a class="dropdown-item" href="/">Sair</a></li>
                 </ul>
               </li>
@@ -42,115 +47,116 @@
 
 
   <h1 style="text-align: center; margin-top: 2%;">Estatísticas dos Usuários</h1>
-    <section class="py-5" style="padding-top: 80px; text-align: center; height: 80vh;">
-        <div style="float:left; border-style: solid; border-width: 2px; border-color: rgb(245, 101, 58); width: 90%; height: 80%; margin-left: 5%; overflow: auto;">
-            @csrf 
-                        
-            <table class="table" style="height: 70%;">
-                <thead>
-                    <tr>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Nome</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Sobrenome</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">E-mail</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Idade</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Escola</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Série</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão A</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão B</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão C</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão D</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão E</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão F</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão G</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão H</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão I</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão J</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão K</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão L</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão M</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão N</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão O</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão P</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão Q</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão R</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão S</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão T</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão U</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão V</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão W</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão X</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão Y</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão Z</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 0</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 1</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 2</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 3</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 4</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 5</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 6</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 7</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 8</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 9</th>
-                        <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 10</th>
-                    </tr>
-                </thead>
+  <section class="py-5" style="padding-top: 80px; text-align: center; height: 80vh;">
+    <div
+      style="float:left; border-style: solid; border-width: 2px; border-color: rgb(245, 101, 58); width: 90%; height: 80%; margin-left: 5%; overflow: auto;">
+      @csrf
 
-                <tbody>
-                    @foreach($turmas as $turma)
-                        <tr>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->nome}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->sobrenome}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->email}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->idade}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->escola}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->serie}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoA}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoB}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoC}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoD}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoE}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoF}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoG}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoH}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoI}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoJ}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoK}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoL}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoM}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoN}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoO}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoP}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoQ}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoR}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoS}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoT}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoU}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoV}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoW}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoX}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoY}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoZ}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao0}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao1}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao2}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao3}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao4}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao5}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao6}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao7}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao8}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao9}}</th>
-                            <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao10}}</th>
-                        </tr>
-                    @endforeach
-                </tbody>
-            </table>
-        </di>
-    </section>
-  
+      <table class="table" style="height: 70%;">
+        <thead>
+          <tr>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Nome</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Sobrenome</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">E-mail</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Idade</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Escola</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Série</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão A</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão B</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão C</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão D</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão E</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão F</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão G</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão H</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão I</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão J</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão K</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão L</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão M</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão N</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão O</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão P</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão Q</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão R</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão S</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão T</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão U</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão V</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão W</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão X</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão Y</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão Z</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 0</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 1</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 2</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 3</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 4</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 5</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 6</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 7</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 8</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 9</th>
+            <th style="border-style: solid; border-width: 2px; font-size: 18px;">Botão 10</th>
+          </tr>
+        </thead>
 
- <!-- Footer centralizado -->
- <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
+        <tbody>
+          @foreach($turmas as $turma)
+        <tr>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->nome}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->sobrenome}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->email}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->idade}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->escola}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->serie}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoA}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoB}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoC}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoD}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoE}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoF}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoG}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoH}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoI}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoJ}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoK}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoL}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoM}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoN}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoO}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoP}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoQ}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoR}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoS}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoT}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoU}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoV}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoW}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoX}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoY}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botaoZ}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao0}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao1}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao2}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao3}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao4}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao5}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao6}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao7}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao8}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao9}}</th>
+        <th style="border-style: solid; border-width: 2px; font-size: 17px;">{{$turma->botao10}}</th>
+        </tr>
+      @endforeach
+        </tbody>
+      </table>
+      </di>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">
     <div class="container py-5">
       <div class="row text-center justify-content-center">
 
