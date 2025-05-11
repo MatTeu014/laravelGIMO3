@@ -67,7 +67,7 @@
 	<section class="py-5" style="padding-top: 80px; text-align: center; height: 80vh;">
 
 
-		<canvas id="graficoProgressoNumeros" width="400" height="200" style="float:left; margin-left: 10%;"></canvas>
+		<canvas id="graficoProgressoNumeros" width="400" height="200" style="float:left; margin-left: 15%;"></canvas>
 		<script>
 			const ctxgraficoProgressoNumeros = document.getElementById('graficoProgressoNumeros').getContext('2d');
 			const graficoProgressoNumeros = new Chart(ctxgraficoProgressoNumeros, {
@@ -113,7 +113,7 @@
 			});
 		</script>
 
-		<canvas id="graficoProgressoLetras" width="400" height="200" style="float:right; margin-right: 10%;"></canvas>
+		<canvas id="graficoProgressoLetras" width="400" height="200" style="float:right; margin-right: 15%;"></canvas>
 		<script>
 			const ctxgraficoProgressoLetras = document.getElementById('graficoProgressoLetras').getContext('2d');
 			const graficoProgressoLetras = new Chart(ctxgraficoProgressoLetras, {
@@ -158,9 +158,15 @@
 				}
 			});
 		</script>
+		<div>
+			<a href="professoresseriesturmaconsultaserie"><button type="button"
+					style="width: 8%; border-radius: 30px; font-size: 18px; padding: 12px 24px; float: left; background-color: rgb(245, 101, 58); border-color: rgb(245, 101, 58); margin-left: 4%;">
+					Voltar </button></a>
+		</div>
+
 
 	</section>
-
+	<br>
 
 	<!-- Footer -->
 	<footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">

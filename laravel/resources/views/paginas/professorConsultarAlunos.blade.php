@@ -76,12 +76,12 @@
 								<div class="card" style="width: 24rem; height: 35vh; border-color: white;">
 									<div class="card-body">
 										<button type="submit" name="nome" value="{{ $aluno->nome }}"
-											style=" font-size: 1.3rem; border-radius: 25px;  border: none; background: linear-gradient(90deg, rgb(245,101,58) 0%, rgb(255,180,120) 100%); color: #fff; font-weight: bold; padding: 18px 40px;  box-shadow: 0 4px 16px rgba(245,101,58,0.15); transition: transform 0.15s, box-shadow 0.15s, background 0.3s; margin: 10px 0; letter-spacing: 1px; cursor: pointer;"
+											style=" font-size: 1.3rem; border-radius: 25px;  border: none; background: linear-gradient(90deg, rgb(245,101,58) 0%, rgb(255,180,120) 100%); color: black; font-weight: bold; padding: 18px 40px;  box-shadow: 0 4px 16px rgba(245,101,58,0.15); transition: transform 0.15s, box-shadow 0.15s, background 0.3s; margin: 10px 0; letter-spacing: 1px; cursor: pointer;"
 											onmouseover="this.style.background='linear-gradient(90deg, rgb(255,180,120) 0%, rgb(245,101,58) 100%)'; this.style.transform='scale(1.04)'; this.style.boxShadow='0 8px 24px rgba(245,101,58,0.25)';"
 											onmouseout="this.style.background='linear-gradient(90deg, rgb(245,101,58) 0%, rgb(255,180,120) 100%)'; this.style.transform='scale(1)'; this.style.boxShadow='0 4px 16px rgba(245,101,58,0.15)';">
 											{{ $aluno->nome }}
 										</button>
-											
+
 									</div>
 								</div>
 							@endforeach
@@ -92,6 +92,11 @@
 				</form>
 
 			</div>
+		</div>
+		<div>
+			<a href="professorconsultarseriesalunos"><button type="button"
+					style="width: 8%; border-radius: 30px; font-size: 18px; padding: 12px 24px; float: left; background-color: rgb(245, 101, 58); border-color: rgb(245, 101, 58); margin-left: 4%;">
+					Voltar </button></a>
 		</div>
 	</section>
 

@@ -454,6 +454,11 @@
 				</tbody>
 			</table>
 		</div>
+		<div>
+			<a href="professorconsultarseriesalunos"><button type="button"
+					style="width: 8%; border-radius: 30px; font-size: 18px; padding: 12px 24px; float: left; background-color: rgb(245, 101, 58); border-color: rgb(245, 101, 58); margin-left: 4%; margin-top: 2%;">
+					Voltar </button></a>
+		</div>
 	</section>
 
 
