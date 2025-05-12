@@ -68,9 +68,25 @@
         <div class="col">
           <div class="card">
             <a href="numero0">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num0_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao0 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num0_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao0 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num0_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -78,9 +94,25 @@
         <div class="col">
           <div class="card">
             <a href="numero1">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num1_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao1 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num1_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao1 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num1_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -88,9 +120,25 @@
         <div class="col">
           <div class="card">
             <a href="numero2">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num2_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao2 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num2_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao2 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num2_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -98,9 +146,25 @@
         <div class="col">
           <div class="card">
             <a href="numero3">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num3_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao3 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num3_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao3 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num3_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -108,9 +172,25 @@
         <div class="col">
           <div class="card">
             <a href="numero4">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num4_5.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao4 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num4_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao4 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num4_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -118,9 +198,25 @@
         <div class="col">
           <div class="card">
             <a href="numero5">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num5_5.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao5 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num5_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao5 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num5_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -128,9 +224,25 @@
         <div class="col">
           <div class="card">
             <a href="numero6">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num6_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao6 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num6_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao6 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num6_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -138,9 +250,25 @@
         <div class="col">
           <div class="card">
             <a href="numero7">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num7_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao7 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num7_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao7 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num7_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -148,9 +276,25 @@
         <div class="col">
           <div class="card">
             <a href="numero8">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num8_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao8 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num8_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao8 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num8_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -158,9 +302,25 @@
         <div class="col">
           <div class="card">
             <a href="numero9">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num9_4.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao9 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num9_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao9 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num9_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -168,9 +328,25 @@
         <div class="col">
           <div class="card">
             <a href="numero10">
-              <div class="card-body">
-                <img src="{{URL::to('/assets/img/num10_6.png')}}" class="card-img-top" alt="..." style="width: 120px;">
-              </div>
+              @if ($alunoss->botao10 == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num10_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botao10 == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/num10_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -182,6 +358,10 @@
 
     </div>
   </section>
+  <a href="alunoAtividades"><button type="button" class="btn btn-danger"
+											style="width: 10%; border-radius: 30px; font-size: 18px; padding: 12px 24px; background-color: #34B764; border-color: #34B764; margin-bottom: 2%;margin-left: 1%;">
+											Voltar
+										</button></a>
 
   <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">

@@ -119,6 +119,10 @@
 
             </div>
         </div>
+        <a href="examinarbotoesalfabeto"><button type="button" class="btn btn-danger"
+											style="width: 10%; border-radius: 30px; font-size: 18px; padding: 12px 24px; background-color: #4782DA; border-color: #4782DA; margin-bottom: 2%;margin-left: 1%;">
+											Voltar
+										</button></a>
 
   <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%; padding-top: 20px; padding-bottom: 20px;">

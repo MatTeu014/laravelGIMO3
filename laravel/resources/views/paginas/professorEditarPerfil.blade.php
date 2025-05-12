@@ -108,7 +108,7 @@
                 <div class="col-md-6">
                   <h3 style="text-align: center;">Nova Senha:</h3>
                   <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" required
+                    <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required
                       style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;"
                       value="{{ $professores->senha }}">
                     <label for="senha">Senha</label>

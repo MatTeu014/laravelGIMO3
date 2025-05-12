@@ -163,7 +163,7 @@ class alunosController extends Controller
         //Log::info("ID DA SERIE $alunos");
 
         // Redireciona para a página de homeLogado ou outra página que desejar
-        return redirect('alunoperfil');
+        return redirect('alunosperfil');
     }
 
     public function alunosRelatorio(){
@@ -206,7 +206,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraB()
     {
@@ -234,7 +234,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+       return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraC()
     {
@@ -262,7 +262,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraD()
     {
@@ -290,7 +290,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraE()
     {
@@ -318,7 +318,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraF()
     {
@@ -346,7 +346,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraG()
     {
@@ -374,7 +374,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraH()
     {
@@ -402,7 +402,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraI()
     {
@@ -430,7 +430,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraJ()
     {
@@ -458,7 +458,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+       return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraK()
     {
@@ -486,7 +486,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+       return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraL()
     {
@@ -514,7 +514,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraM()
     {
@@ -542,7 +542,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+       return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraN()
     {
@@ -570,7 +570,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+       return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraO()
     {
@@ -598,7 +598,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraP()
     {
@@ -626,7 +626,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraQ()
     {
@@ -654,7 +654,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+       return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraR()
     {
@@ -682,7 +682,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraS()
     {
@@ -710,7 +710,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraT()
     {
@@ -738,7 +738,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraU()
     {
@@ -766,7 +766,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraV()
     {
@@ -794,7 +794,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraW()
     {
@@ -822,7 +822,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraX()
     {
@@ -850,7 +850,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraY()
     {
@@ -878,7 +878,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
     public function alunoAumentarProgressoLetraZ()
     {
@@ -906,7 +906,7 @@ class alunosController extends Controller
         session(['alunos' => $aluno]);
 
 
-        return redirect('alunoAlfabeto');
+        return redirect()->route('examinarbotoesalfabeto');
     }
 
     public function alunoResetarProgressoLetras(Request $request)
@@ -988,7 +988,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero1()
     {
@@ -1013,7 +1013,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero2()
     {
@@ -1038,7 +1038,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero3()
     {
@@ -1063,7 +1063,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero4()
     {
@@ -1088,7 +1088,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero5()
     {
@@ -1113,7 +1113,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero6()
     {
@@ -1138,7 +1138,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero7()
     {
@@ -1163,7 +1163,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero8()
     {
@@ -1188,7 +1188,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero9()
     {
@@ -1213,7 +1213,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
     public function alunoAumentarProgressoNumero10()
     {
@@ -1238,7 +1238,7 @@ class alunosController extends Controller
         // Atualiza a sessão também, se quiser manter o progresso atualizado nela
         session(['alunos' => $aluno]);
 
-        return redirect('alunoNumeros');
+        return redirect('examinarbotoesnumeros');
     }
 
     public function alunoResetarProgressoNumeros(Request $request)
@@ -1278,5 +1278,23 @@ class alunosController extends Controller
     }
 
     #########BOTOES DOS NUMEROS##########
+
+    public function examinarBotoesAlfabeto(){
+
+        $alunoss = alunosModel::where('email', session('alunos')->email)->first();
+        Log::info('Alunos:  $alunoss');
+
+        return view('paginas.alunoAlfabeto', compact('alunoss'));
+
+    }
+
+        public function examinarBotoesNumeros(){
+
+        $alunoss = alunosModel::where('email', session('alunos')->email)->first();
+        Log::info('Alunos:  $alunoss');
+
+        return view('paginas.alunoNumeros', compact('alunoss'));
+
+    }
 
 }//fim da classe

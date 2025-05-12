@@ -367,6 +367,10 @@ Route::get('/alunoscadastrarserie',[App\Http\Controllers\alunosController::class
 
 Route::get('/alunoscadastrarturma',[App\Http\Controllers\alunosController::class, 'alunosCadastrarTurma'])->name('alunoscadastrarturma');
 
+Route::get('/examinarbotoesalfabeto',[App\Http\Controllers\alunosController::class, 'examinarBotoesAlfabeto'])->name('examinarbotoesalfabeto');
+
+Route::get('/examinarbotoesnumeros',[App\Http\Controllers\alunosController::class, 'examinarBotoesNumeros'])->name('examinarbotoesnumeros');
+
 
 #######BOTOES DO ALFABETO########
 

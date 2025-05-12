@@ -76,14 +76,14 @@
 
         <div class="card" style="width: 24rem; margin-left: 10%; height: 35vh; border-color: white;">
           <div class="card-body">
-            <a href="alunoAlfabeto"><button
+            <a href="examinarbotoesalfabeto"><button
                 style="font-size: 150px; border-radius: 30px; border-color: #4782da; border-style: solid; background-color: white;">ABC</button></a>
           </div>
         </div>
 
         <div class="card" style="width: 24rem; margin-left: 15%; height: 35vh; border-color: white;">
           <div class="card-body">
-            <a href="alunoNumeros"><button
+            <a href="examinarbotoesnumeros"><button
                 style="font-size: 150px; border-radius: 30px; border-color: #34b764; border-style: solid; background-color: white;">123</button></a>
           </div>
         </div>

@@ -31,67 +31,57 @@
         </ul>
       </div>
 
-      <!-- LOGIN / ADM -->
-      <form class="d-flex" role="search">
-        <a href="/alunoLogin" class="btn"
-          style="background-color: white; border-radius: 30px; padding: 6px 17px; font-size: 19px; color: #DA3E41;">Login</a>
-        <a href="/admLogin" class="btn ms-2"
-          style="background-color: white; border-radius: 30px; padding: 6px 18px; font-size: 20px; color: #DA3E41;">Adm</a>
+      <form class="d-flex" role="search" style="margin-right: 4%">
+        <!-- Dropdown -->
+        <div class="dropdown ms-2">
+          <button class="btn dropdown-toggle"
+            style="background-color: white; border: 0px solid black; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color: #DA3E41;"
+            type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            LOGIN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="alunoLogin">ALUNO</a></li>
+            <li><a class="dropdown-item" href="professorLogin">PROFESSOR</a></li>
+            <li><a class="dropdown-item" href="escolaLogin">ESCOLA</a></li>
+          </ul>
+        </div>
       </form>
+      
     </div>
   </nav>
 
-  <!-- CARDS ALINHADOS -->
-  <div class="row row-cols-1 row-cols-md-4 g-4">
-    <div class="col">
-      <div class="card">
-        <img src="{{URL::to('/assets/img/gisele.png')}}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Gisele da Hora Silva</h5>
-          <p class="card-text">• 18 anos;</p>
-          <p class="card-text">• Formanda de Técnico de Informática no Senac de São Bernardo do Campo;</p>
-          <p class="card-text">• Estudante de bacharelado em Ciências da computação no Senac Santo Amaro.</p>
+  <section class="py-5" style="padding-top: 80px;"> <!-- Ajuste o padding-top para evitar sobreposição -->
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Texto à esquerda -->
+        <div class="col-md-6">
+          <h2 class="mb-4">Projeto GIMO</h2>
+          <p>Como sabemos hoje vivemos em frente a uma tela, já que estamos na era da tecnologia, sendo assim todos
+            estamos sujeitos a ficar horas em frente as telas de computadores e celulares, e isso não é diferente quando
+            falamos de crianças nos dias atuais, pios hoje desde muito pequenos já se possuí acesso a um celular ou um
+            computador, por diversos motivos, e a escola também já se introduz essas tecnologias nas escolas, iniciado
+            nos anos 80, depois se popularizando em todas as escolas nos anos 90 (mais específico em 1997),
+            possibilitando a pesquisa usando as maquinas na escola, e hoje com a crescente nos avanços da tecnologia e a
+            implementação dessas na sociedade, incluindo nas escolas, crianças tem acesso as telas muito rápido, então,
+            pensando nisso, pensamos em transformar isso em uma oportunidade de aprendizado, podendo ser usado de
+            maneira responsável e incentivando o aprendizado e o estudo para todas as crianças.</p>
+          <p>O projeto GIMO tem como objetivo a elaboração de um site que auxilia alunos de ensino primário em seu
+            aprendizado na parte de alfabetização e conhecimentos, podendo ser uma ajuda para o professor em sala de
+            aula, proporcionando uma aula mais interativa e chamativa para as crianças. Visando as crianças com
+            dificuldade de aprendizado, por quaisquer motivos que sejam, queremos que todas tenham uma aula interessante
+            e que seja divertido aprender, sendo assim, podendo se usar desse site para uma melhora no ambiente escolar
+            para ser cada vez mais receptivo para o aprendizado que é tão importante na vida de um ser humano. </p>
         </div>
+
+        <!-- Imagem à direita -->
+        <div class="col-md-6 text-center">
+          <img src="{{URL::to('/assets/img/criancas.avif')}}" alt="Imagem ilustrativa" class="img-fluid rounded">
+        </div>
+
       </div>
     </div>
-    <div class="col">
-      <div class="card">
-        <img src="{{URL::to('/assets/img/isaac.png')}}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Isaac Sena Martins</h5>
-          <p class="card-text">• 22 anos;</p>
-          <p class="card-text">• Formando de Técnico de Informática no Senac de São Bernardo do Campo;</p>
-          <p class="card-text">• Possuí experiencia em sistema de Banco de Dados (SISQUAL).</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="{{URL::to('/assets/img/mateus.png')}}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Mateus Albuquerque Pavani</h5>
-          <p class="card-text">• 20 anos;</p>
-          <p class="card-text">• Formando de Técnico de Informática no Senac de São Bernardo do Campo;</p>
-          <p class="card-text">• Formado em cursos rápidos em manutenção de computadores e redes pelo Senai;</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="{{URL::to('/assets/img/otavio.png')}}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Otávio Fidalgo</h5>
-          <p class="card-text">• 22 anos;</p>
-          <p class="card-text">• Formado em curso superior em Fotografia pela Universidade Paulista;</p>
-          <p class="card-text">• Especializado em Fotografia Gastronômica;</p>
-          <p class="card-text">• Formando em Técnico de Informática no Senac São Bernardo do Campo;</p>
-          <p class="card-text">• Experiente em organização de Eventos e em estoques;</p>
-          <p class="card-text">• Experiente em correção de textos, documentos e roteirização;</p>
-          <p class="card-text">• Experiencia em direção de arte e fotografia.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
   <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">

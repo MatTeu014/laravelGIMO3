@@ -59,29 +59,15 @@
     </div>
   </nav>
 
-  <!-- Seção de Conteúdo -->
-  <section class="py-5" style="padding-top: 80px;">
+  <section class="py-5" style="padding-top: 80px;"> <!-- Ajuste o padding-top para evitar sobreposição -->
     <div class="container">
       <div class="row align-items-center">
 
         <!-- Texto à esquerda -->
         <div class="col-md-6">
-          <h2 class="mb-4">Projeto GIMO</h2>
-          <p>Como sabemos hoje vivemos em frente a uma tela, já que estamos na era da tecnologia, sendo assim todos
-            estamos sujeitos a ficar horas em frente as telas de computadores e celulares, e isso não é diferente quando
-            falamos de crianças nos dias atuais, pios hoje desde muito pequenos já se possuí acesso a um celular ou um
-            computador, por diversos motivos, e a escola também já se introduz essas tecnologias nas escolas, iniciado
-            nos anos 80, depois se popularizando em todas as escolas nos anos 90 (mais específico em 1997),
-            possibilitando a pesquisa usando as maquinas na escola, e hoje com a crescente nos avanços da tecnologia e a
-            implementação dessas na sociedade, incluindo nas escolas, crianças tem acesso as telas muito rápido, então,
-            pensando nisso, pensamos em transformar isso em uma oportunidade de aprendizado, podendo ser usado de
-            maneira responsável e incentivando o aprendizado e o estudo para todas as crianças.</p>
-          <p>O projeto GIMO tem como objetivo a elaboração de um site que auxilia alunos de ensino primário em seu
-            aprendizado na parte de alfabetização e conhecimentos, podendo ser uma ajuda para o professor em sala de
-            aula, proporcionando uma aula mais interativa e chamativa para as crianças. Visando as crianças com
-            dificuldade de aprendizado, por quaisquer motivos que sejam, queremos que todas tenham uma aula interessante
-            e que seja divertido aprender, sendo assim, podendo se usar desse site para uma melhora no ambiente escolar
-            para ser cada vez mais receptivo para o aprendizado que é tão importante na vida de um ser humano. </p>
+          <h2 class="mb-4">Construindo Futuros com Educação de Qualidade</h2>
+          <p>Bem-vindo ao nosso espaço dedicado ao desenvolvimento educacional de crianças! Aqui, acreditamos que o conhecimento é a base para transformar o mundo. Oferecemos conteúdos, atividades e recursos pensados especialmente para estudantes do Ensino Fundamental I e II, promovendo o aprendizado de forma clara, envolvente e acessível. Seja você aluno, educador ou instituição, este é o lugar certo para crescer com a educação.</p>
+          <p>Navegue pelos nossos conteúdos, explore as atividades interativas e descubra um universo de possibilidades para tornar o aprendizado uma jornada prazerosa e significativa. Juntos, podemos construir um caminho de descobertas e conquistas, onde cada criança tem a oportunidade de desenvolver todo o seu potencial.</p>
         </div>
 
         <!-- Imagem à direita -->

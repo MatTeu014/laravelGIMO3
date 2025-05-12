@@ -68,10 +68,25 @@
         <div class="col">
           <div class="card">
             <a href="letraA">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraA_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoA == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraA_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoA == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraA_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -79,10 +94,25 @@
         <div class="col">
           <div class="card">
             <a href="letraB">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraB_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoB == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraB_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoB == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraB_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -90,10 +120,25 @@
         <div class="col">
           <div class="card">
             <a href="letraC">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraC_3.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoC == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraC_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoC == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraC_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -101,10 +146,25 @@
         <div class="col">
           <div class="card">
             <a href="letraD">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraD_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoD == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraD_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoD == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraD_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -112,10 +172,25 @@
         <div class="col">
           <div class="card">
             <a href="letraE">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraE_6.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoE == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraE_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoE == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraE_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -123,10 +198,25 @@
         <div class="col">
           <div class="card">
             <a href="letraF">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraF_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoF == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraF_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoF == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraF_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -134,10 +224,25 @@
         <div class="col">
           <div class="card">
             <a href="letraG">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraG_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoG == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraG_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoG == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraG_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -145,10 +250,25 @@
         <div class="col">
           <div class="card">
             <a href="letraH">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraH_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoH == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraH_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoH == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraH_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -156,10 +276,25 @@
         <div class="col">
           <div class="card">
             <a href="letraI">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraI_3.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoI == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraI_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoI == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraI_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -167,10 +302,25 @@
         <div class="col">
           <div class="card">
             <a href="letraJ">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraJ_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoJ == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraJ_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoJ == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraJ_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -178,10 +328,25 @@
         <div class="col">
           <div class="card">
             <a href="letraK">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraK_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoK == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraK_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoK == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraK_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -189,10 +354,25 @@
         <div class="col">
           <div class="card">
             <a href="letraL">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraL_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoL == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraL_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoL == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraL_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -200,10 +380,25 @@
         <div class="col">
           <div class="card">
             <a href="letraM">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraM_6.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoM == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraM_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoM == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraM_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -211,10 +406,25 @@
         <div class="col">
           <div class="card">
             <a href="letraN">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraN_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoN == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraN_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoN == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraN_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -222,10 +432,25 @@
         <div class="col">
           <div class="card">
             <a href="letraO">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraO_3.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoO == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraO_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoO == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraO_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -233,10 +458,25 @@
         <div class="col">
           <div class="card">
             <a href="letraP">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraP_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoP == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraP_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoP == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraP_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -244,10 +484,25 @@
         <div class="col">
           <div class="card">
             <a href="letraQ">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraQ_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoQ == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraQ_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoQ == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraQ_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -255,10 +510,25 @@
         <div class="col">
           <div class="card">
             <a href="letraR">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraR_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoR == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraR_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoR == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraR_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -266,10 +536,25 @@
         <div class="col">
           <div class="card">
             <a href="letraS">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraS_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoS == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraS_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoS == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraS_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -277,10 +562,25 @@
         <div class="col">
           <div class="card">
             <a href="letraT">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraT_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoT == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraT_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoT == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraT_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -288,10 +588,25 @@
         <div class="col">
           <div class="card">
             <a href="letraU">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraU_3.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoU == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraU_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoU == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraU_3.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -299,10 +614,25 @@
         <div class="col">
           <div class="card">
             <a href="letraV">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraV_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoV == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraV_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoV == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraV_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
 
@@ -311,10 +641,25 @@
         <div class="col">
           <div class="card">
             <a href="letraW">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraW_6.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoW == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraW_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoW == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraW_6.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -322,10 +667,25 @@
         <div class="col">
           <div class="card">
             <a href="letraX">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraX_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoX == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraX_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoX == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraX_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -333,10 +693,25 @@
         <div class="col">
           <div class="card">
             <a href="letraY">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraY_4.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoY == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraY_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoY == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraY_4.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -344,10 +719,25 @@
         <div class="col">
           <div class="card">
             <a href="letraZ">
-              <div class="card-body">
-                <img href="" src="{{URL::to('/assets/img/letraZ_5.png')}}" class="card-img-top" alt="..."
-                  style="width: 120px;">
-              </div>
+              @if ($alunoss->botaoZ == 0)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraZ_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    
+</div>
+@endif
+              
+              @if ($alunoss->botaoZ == 1)
+<div class="card-body" style="padding: 0; display: flex; align-items: center; justify-content: center;">
+    <img src="{{URL::to('/assets/img/letraZ_5.png')}}" class="card-img-top" alt="..." style="width: 120px; height: 120px; object-fit: contain;">
+    <div style="
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(186, 249, 160, 0.5); /* cor + transparência */
+        border-radius: 8px;
+        pointer-events: none;
+    "></div>
+</div>
+@endif
             </a>
           </div>
         </div>
@@ -356,6 +746,10 @@
 
     </div>
   </section>
+  <a href="alunoAtividades"><button type="button" class="btn btn-danger"
+											style="width: 10%; border-radius: 30px; font-size: 18px; padding: 12px 24px; background-color: #4782DA; border-color: #4782DA; margin-bottom: 2%;margin-left: 1%;">
+											Voltar
+										</button></a>
 
   <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%;">

@@ -51,7 +51,7 @@
           </div>
           <br>
 
-          <!-- Endereço -->
+          <!-- Senha -->
           <h3 style="text-align: center;">Senha:</h3>
           <div class="form-floating mb-3">
             <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite a Senha" required
